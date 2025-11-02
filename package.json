@@ -31,6 +31,7 @@
     "@mdx-js/loader": "^3.1.1",
     "@mdx-js/react": "^3.1.1",
     "@next/bundle-analyzer": "^15.5.2",
+    "@stackblitz/sdk": "^1.11.0",
     "@tabler/icons-react": "^3.34.1",
     "next": "15.5.2",
     "nextra": "4.4.0",

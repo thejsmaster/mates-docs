@@ -31,7 +31,14 @@ export const MantineNavBar = () => {
         projectLink="https://github.com/gfazioli/next-app-nextra-template"
       >
         <>
-          <ColorSchemeControl />
+          <Group gap="xs" align="center">
+            <a href="/playground" style={{ textDecoration: 'none' }}>
+              <Text fw={500} c="blue">
+                Playground
+              </Text>
+            </a>
+            <ColorSchemeControl />
+          </Group>
           <iframe
             src="https://github.com/sponsors/gfazioli/button"
             title="Sponsor gfazioli"

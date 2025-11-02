@@ -14,7 +14,7 @@ export function Welcome() {
         <ProductHunt />
       </Center>
       <Title maw="90vw" mx="auto" className={classes.title} ta="center">
-        Welcome to Mantine Next.js +
+        Welcome to MATES
         <TextAnimate
           animate="in"
           by="character"
@@ -29,7 +29,7 @@ export function Welcome() {
           }}
           gradient={{ from: 'pink', to: 'yellow' }}
         >
-          Nextra template
+          Your Next Front End Framework
         </TextAnimate>
       </Title>
 
